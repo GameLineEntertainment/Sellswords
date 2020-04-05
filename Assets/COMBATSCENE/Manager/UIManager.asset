@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb12a38d8e76e1a4eb652f14a1accaa5, type: 3}
+  m_Name: UIManager
+  m_EditorClassIdentifier: 
+  UI:
+  - Name: CharUI
+    Prefab: {fileID: 1270589567741805876, guid: 9d70f75d30dc0f646bad3e5eebb97cda,
+      type: 3}
+    Position: {x: 0, y: 809}
+    FontSize: 100
+    Value: 5

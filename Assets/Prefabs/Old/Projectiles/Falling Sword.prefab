@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1151388487937002}
+  m_IsPrefabParent: 1
+--- !u!1 &1151388487937002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4629047919645684}
+  - component: {fileID: 114183085313667308}
+  m_Layer: 0
+  m_Name: Falling Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1932711679893066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4364648926431718}
+  - component: {fileID: 33656335150125894}
+  - component: {fileID: 23659857789479474}
+  - component: {fileID: 114044758530340638}
+  - component: {fileID: 65640766625201780}
+  - component: {fileID: 54054330445975054}
+  - component: {fileID: 114048778859078856}
+  m_Layer: 0
+  m_Name: Falling_Sword_n
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4364648926431718
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3504492, y: 1, z: 2.4243484}
+  m_Children: []
+  m_Father: {fileID: 4629047919645684}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4629047919645684
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1151388487937002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.504306, y: 14.44275, z: 32.89622}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4364648926431718}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23659857789479474
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: fc0468960aba2ab44bb753ff00afc69e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 0.3
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33656335150125894
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  m_Mesh: {fileID: 4300000, guid: 10d3ff16783be694bb0fe5101035da80, type: 3}
+--- !u!54 &54054330445975054
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65640766625201780
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.44117558, y: 0.2310276, z: 0.6548106}
+  m_Center: {x: -0.025217354, y: 0.00041007996, z: 0.1386557}
+--- !u!114 &114044758530340638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20219af20e8f08d4fbbd45490a155f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings:
+    Name: Projectile
+    TypeOfDamage: 0
+    SideOfDamage: 0
+    FromHand: 1
+    FollowToEnemy: 0
+    LookAtTarget: 0
+    Damage: 0
+    Speed: 0
+    RotationSpeed: 0
+    LifeTime: 0
+    DistanceTillEnemy: 0
+    IsKillbyRay: 0
+    Effect: {fileID: 0}
+    NotDamageEffect: {fileID: 0}
+    Spawn_Offset: {x: 0, y: 0, z: 0}
+    StartRotation: {x: 0, y: 0, z: 0}
+    Prjectile_Object: {fileID: 0}
+  MyCol: {fileID: 0}
+  Target: {fileID: 0}
+  ParentChar: {fileID: 0}
+  Killed: 0
+  "\u041F\u043E\u043D\u044F\u0442\u043D\u043E": 0
+--- !u!114 &114048778859078856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932711679893066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba0a1c3293a74445bc0a3d011d95671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings:
+    Name: Projectile
+    TypeOfDamage: 0
+    SideOfDamage: 0
+    FromHand: 1
+    FollowToEnemy: 0
+    LookAtTarget: 0
+    Damage: 0
+    Speed: 0
+    RotationSpeed: 0
+    LifeTime: 0
+    DistanceTillEnemy: 0
+    IsKillbyRay: 0
+    Effect: {fileID: 0}
+    NotDamageEffect: {fileID: 0}
+    Spawn_Offset: {x: 0, y: 0, z: 0}
+    StartRotation: {x: 0, y: 0, z: 0}
+    Prjectile_Object: {fileID: 0}
+  MyBody: {fileID: 54054330445975054}
+  MyProg: {fileID: 114183085313667308}
+--- !u!114 &114183085313667308
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1151388487937002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f77c95813ab172c40849507f09aa4ba1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings:
+    Name: Projectile
+    TypeOfDamage: 0
+    SideOfDamage: 0
+    FromHand: 1
+    FollowToEnemy: 0
+    LookAtTarget: 0
+    Damage: 0
+    Speed: 0
+    RotationSpeed: 0
+    LifeTime: 0
+    DistanceTillEnemy: 0
+    IsKillbyRay: 0
+    Effect: {fileID: 0}
+    NotDamageEffect: {fileID: 0}
+    Spawn_Offset: {x: 0, y: 0, z: 0}
+    StartRotation: {x: 0, y: 0, z: 0}
+    Prjectile_Object: {fileID: 0}
+  MyCol: {fileID: 0}
+  Target: {fileID: 0}
+  ParentChar: {fileID: 0}
+  Killed: 0
+  "\u041F\u043E\u043D\u044F\u0442\u043D\u043E": 0

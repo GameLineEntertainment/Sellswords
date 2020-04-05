@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1050195702537592146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1050195702537592148}
+  - component: {fileID: 1050195702537592149}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050195702537592148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050195702537592146}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.04821, y: -3.5955124, z: 1.7423731}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1050195702537592149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050195702537592146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa5a02a06d8f8a44cb9f609eedd58ff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIElementSettings: {fileID: 11400000, guid: 4c783c66c39e28542acf2dec5fe03566, type: 2}
+  SpecialFuncSettings: {fileID: 11400000, guid: 7a7e872658bfa7c488de1d8797b040d2,
+    type: 2}
+  EnemySpawnSettings: {fileID: 11400000, guid: 13f1a192d3467344b84b49080461c91e, type: 2}
+  CharactersSettings: {fileID: 11400000, guid: bdd810e8b51d85b40b3fe56f40865777, type: 2}
+  EnemiesSettings: {fileID: 11400000, guid: 4fa967b9a9b42604892f91d3eb97774c, type: 2}
+  SpellsSettings: {fileID: 11400000, guid: dd84ab8fd7244f94a9af642745c9a45f, type: 2}

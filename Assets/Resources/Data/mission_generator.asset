@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6145ac393f43c8b6b086a94f84164f, type: 3}
+  m_Name: mission_generator
+  m_EditorClassIdentifier: 
+  Name: 
+  FullDescription: 
+  ShortDescription: 
+  Icon: {fileID: 0}
+  _countEnemy: 0
+  _arenas:
+  - {fileID: 11400000, guid: e957d2139d3a1e2489d584db976e0891, type: 2}
+  - {fileID: 11400000, guid: 319076fc2a6f345458d95081f3a1a12c, type: 2}
+  - {fileID: 11400000, guid: 758e140328d143f4cbcebe8c9e0c8390, type: 2}
+  - {fileID: 11400000, guid: e7793e1e1f5c74c4d8b97ddd2887b358, type: 2}
+  - {fileID: 11400000, guid: 8a4fa311e4a35aa4f9e6dc328dce03db, type: 2}
+  _isComplited: 0

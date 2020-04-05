@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a400f92cf776664a8f9bc38c954deb7, type: 3}
+  m_Name: PlayerSettings
+  m_EditorClassIdentifier: 
+  RedCharacter:
+    Name: Rogue
+    Color: 0
+    PrefabPlayable: {fileID: 1000012274571920, guid: 2996adc4ec6bdf245ad8921ec525da31,
+      type: 3}
+    PrefabPreview: {fileID: 1000012274571920, guid: 2996adc4ec6bdf245ad8921ec525da31,
+      type: 3}
+    Icon: {fileID: 21300000, guid: 7e93c690662cab34790e1e4503021575, type: 3}
+    Portrait: {fileID: 21300000, guid: a6aaff79fbe192942818bc8fbc000d7d, type: 3}
+    Level: 0
+    Health: 0
+    InfoChar: 
+    SkillPoints: 0
+    ActiveSkill: 0
+    Skill:
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+  GreenCharacter:
+    Name: Blue
+    Color: 2
+    PrefabPlayable: {fileID: 106260, guid: ebc1ee052295250408e42afd6fd71e43, type: 3}
+    PrefabPreview: {fileID: 106260, guid: ebc1ee052295250408e42afd6fd71e43, type: 3}
+    Icon: {fileID: 21300000, guid: c31e4e65d58650c4ba484516e9f12986, type: 3}
+    Portrait: {fileID: 21300000, guid: 9964c2505e1e4e546bcca0226258f5f5, type: 3}
+    Level: 1
+    Health: 0
+    InfoChar: 
+    SkillPoints: 0
+    ActiveSkill: 0
+    Skill:
+    - Name: "\u0441\u043A\u0438\u043B\u043B1"
+      isLock: 1
+      Icon: {fileID: 0}
+      Info: 
+      Price: 2
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: "\u0441\u043A\u0438\u043B\u043B2"
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: "\u0441\u043A\u0438\u043B\u043B3"
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: "\u0441\u043A\u0438\u043B\u043B4"
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: "\u0441\u043A\u0438\u043B\u043B5"
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: "\u0441\u043A\u0438\u043B\u043B6"
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+  BlueCharacter:
+    Name: Green
+    Color: 1
+    PrefabPlayable: {fileID: 110198, guid: f8ea711a14bd1274398b4da4c20a3b85, type: 3}
+    PrefabPreview: {fileID: 110198, guid: f8ea711a14bd1274398b4da4c20a3b85, type: 3}
+    Icon: {fileID: 21300000, guid: c5b1511060df53d4784cb15a8d1adc2d, type: 3}
+    Portrait: {fileID: 21300000, guid: 1be04e4d1bcd2634d9bec6040e326862, type: 3}
+    Level: 1
+    Health: 0
+    InfoChar: 
+    SkillPoints: 0
+    ActiveSkill: 0
+    Skill:
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+    - Name: 
+      isLock: 0
+      Icon: {fileID: 0}
+      Info: 
+      Price: 0
+      LootPrice: []
+      SkillScript: {fileID: 0}
+  RefToCharacters: {fileID: 11400000, guid: 3abc3f10a0a8c404ca1cee1353024169, type: 2}
+  PlayerMoney: 0
+  Money: 0
+  Experience: 0
+  Level: 0
+  KilledRedMonsters: 0
+  KilledGreenMonsters: 0
+  KilledBlueMonsters: 0
+  MissionsComplete: 0
+  PlayerLoot:
+  - Name: 
+    LootObj: {fileID: 0}
+    SellCost: 0
+    BuyCost: 0
+    Rank: 0
+    Count: 0
+    Chance: 0
+  - Name: 
+    LootObj: {fileID: 0}
+    SellCost: 0
+    BuyCost: 0
+    Rank: 0
+    Count: 0
+    Chance: 0
+  - Name: 
+    LootObj: {fileID: 0}
+    SellCost: 0
+    BuyCost: 0
+    Rank: 0
+    Count: 0
+    Chance: 0
+  - Name: 
+    LootObj: {fileID: 0}
+    SellCost: 0
+    BuyCost: 0
+    Rank: 0
+    Count: 0
+    Chance: 0
+  - Name: 
+    LootObj: {fileID: 0}
+    SellCost: 0
+    BuyCost: 0
+    Rank: 0
+    Count: 0
+    Chance: 0

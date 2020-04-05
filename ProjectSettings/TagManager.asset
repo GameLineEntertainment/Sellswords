@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Left_Enemy
+  - Right_Enemy
+  - Down_Enemy
+  - New Tag
+  - Increase
+  - Positions
+  - Char
+  - Left_Respawn
+  - Arrow
+  - ShieldWave
+  - Fire
+  - Freeze
+  - Right_Respawn
+  - Down_Respawn
+  - Up_Respawn
+  - Lighting
+  - Bomb
+  - Vars
+  - Classes
+  - AoE
+  - SS
+  - DD
+  - MiniRespawner
+  - Enemy
+  - Lock
+  - BuyButton
+  - SkillButton
+  - Dead
+  - HeroSpawn
+  - RagdollRoot
+  - EnemyWeapon
+  - Ground
+  - EnemySpawn
+  - Meteor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Creatures
+  - Arrow
+  - ArrowSocket
+  - Coins
+  - Dead Cretures
+  - Red_Enemy
+  - Green_Enemy
+  - Blue_Enemy
+  - Red_Arrow
+  - Green_Arrow
+  - Blue_Arrow
+  - Floor
+  - LootChest
+  - DefenceGod
+  - 1
+  - 2
+  - Ground
+  - Enemy
+  - Ragdoll
+  - Ignore
+  - Weapon
+  - Spell
+  - Railing
+  - Impact
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

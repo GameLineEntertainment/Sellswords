@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 79f9f70449347574fad6c1cb7db80b6f
+timeCreated: 1507211113
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: AmazonBezerker
+    100002: Arrow
+    100004: Bow
+    100006: Broadsword
+    100008: Broadsword02
+    100010: Gladius
+    100012: Gladius02
+    100014: Hammer
+    100016: Longsword
+    100018: Shield01
+    100020: Shield02
+    100022: Shield03
+    100024: Spear
+    100026: //RootNode
+    400000: AmazonBezerker
+    400002: Arrow
+    400004: Bow
+    400006: Broadsword
+    400008: Broadsword02
+    400010: Gladius
+    400012: Gladius02
+    400014: Hammer
+    400016: Longsword
+    400018: Shield01
+    400020: Shield02
+    400022: Shield03
+    400024: Spear
+    400026: //RootNode
+    2300000: AmazonBezerker
+    2300002: Arrow
+    2300004: Bow
+    2300006: Broadsword
+    2300008: Broadsword02
+    2300010: Gladius
+    2300012: Gladius02
+    2300014: Hammer
+    2300016: Longsword
+    2300018: Shield01
+    2300020: Shield02
+    2300022: Shield03
+    2300024: Spear
+    3300000: AmazonBezerker
+    3300002: Arrow
+    3300004: Bow
+    3300006: Broadsword
+    3300008: Broadsword02
+    3300010: Gladius
+    3300012: Gladius02
+    3300014: Hammer
+    3300016: Longsword
+    3300018: Shield01
+    3300020: Shield02
+    3300022: Shield03
+    3300024: Spear
+    4300000: Arrow
+    4300002: Broadsword
+    4300004: Broadsword02
+    4300006: Hammer
+    4300008: Longsword
+    4300010: Spear
+    4300012: Gladius
+    4300014: Shield02
+    4300016: Shield03
+    4300018: Gladius02
+    4300020: Shield01
+    4300022: AmazonBezerker
+    4300024: Bow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

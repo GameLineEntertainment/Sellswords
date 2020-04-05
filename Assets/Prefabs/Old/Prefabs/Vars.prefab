@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010248702494}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010248702494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000014244462706}
+  - component: {fileID: 114000010535581056}
+  m_Layer: 0
+  m_Name: Vars
+  m_TagString: Vars
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000014244462706
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010248702494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 697.2949, y: 521.453, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010535581056
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010248702494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716b7b348649d4b40b843ddf3aa48549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnergyCost: 0
+  FirstBoot: 1
+  MaxEnergy: 0
+  Char: 010000000200000003000000
+  "\u041B\u0435\u0432\u0430\u043A": 0
+  NeedExpForLvl: 000000000000000064000000c80000002c01000090010000f401000058020000bc0200002003000084030000e803000000000000000000000000000000000000
+  GiftsForLvl:
+  - Name: "\u043F\u0432\u044B\u0432"
+    Level: 0
+    Money: 0
+    Hl_Potion: 0
+    Resurec_Potion: 0
+  - Name: "\u044B\u0432\u043F\u044B"
+    Level: 0
+    Money: 0
+    Hl_Potion: 0
+    Resurec_Potion: 0
+  CharUpgrate:
+  - Name: "\u0417\u0435\u043B\u0451\u043D\u0430\u044F"
+    Character: {fileID: 146190, guid: 51a1329f7180312469816eb47547081c, type: 2}
+    Health: 1
+    CurrentLevel: 0
+    MaxLevel: 
+  - Name: "\u0421\u0438\u043D\u044F\u044F"
+    Character: {fileID: 146190, guid: 0489d9f2190d3694795c1e8d9be3ccdd, type: 2}
+    Health: 0
+    CurrentLevel: 0
+    MaxLevel: 0000000000000000e8030000
+  - Name: "\u041A\u0440\u0430\u0441\u043D\u0430\u044F"
+    Character: {fileID: 146190, guid: 5afae36508784b0408a251a95599d416, type: 2}
+    Health: 0
+    CurrentLevel: 0
+    MaxLevel: 
+  ScorMonsters: 0

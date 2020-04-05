@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8590d81de06748248d15ee6cb598317b, type: 3}
+  m_Name: character_data
+  m_EditorClassIdentifier: 
+  Settings:
+    CharacterSpawnObject: {fileID: 1156150866599910015, guid: 1623e0cef919f524192dbab510d06cd3,
+      type: 3}
+    ActivePosition: {fileID: 7024888910948496062, guid: a89906dc900279140a4995ca87311de2,
+      type: 3}
+  Characters:
+  - Id: 0
+    Health: 11
+    Speed: 2
+    AttackDelay: 1
+    Type: 1
+    Prefab: {fileID: 2388989093116909354, guid: e4f51cfd3f5fdda4d8e1ae51d3849816,
+      type: 3}
+    UseSpell: 1
+  - Id: 1
+    Health: 22
+    Speed: 2
+    AttackDelay: 1
+    Type: 2
+    Prefab: {fileID: 8536964463261660337, guid: 9d440b1e1b7434849b7ce96150ac3155,
+      type: 3}
+    UseSpell: 3
+  - Id: 2
+    Health: 33
+    Speed: 2
+    AttackDelay: 1
+    Type: 3
+    Prefab: {fileID: 7256448761535276981, guid: 5599e47fed56c0d40ad3d2f476feb505,
+      type: 3}
+    UseSpell: 2

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 986a11ac3880ad04da2684a07ee3946c, type: 3}
+  m_Name: LevelSettings
+  m_EditorClassIdentifier: 
+  RedCharacter:
+    Name: 
+    Color: 0
+    PrefabPlayable: {fileID: 1000010439344926, guid: 44ce0d439e26da44e9be4217109a88ea,
+      type: 3}
+    PrefabPreview: {fileID: 0}
+    Icon: {fileID: 0}
+    Portrait: {fileID: 0}
+    Level: 0
+    Health: 0
+    InfoChar: 
+    SkillPoints: 0
+    ActiveSkill: 0
+    Skill: []
+  GreenCharacter:
+    Name: 
+    Color: 1
+    PrefabPlayable: {fileID: 1000011009363076, guid: b1445ab7cd2149543989302ecad01400,
+      type: 3}
+    PrefabPreview: {fileID: 0}
+    Icon: {fileID: 0}
+    Portrait: {fileID: 0}
+    Level: 0
+    Health: 0
+    InfoChar: 
+    SkillPoints: 0
+    ActiveSkill: 0
+    Skill: []
+  BlueCharacter:
+    Name: 
+    Color: 2
+    PrefabPlayable: {fileID: 1000012131715578, guid: 1e6eb80820805724bbaf4b0b6dc47e05,
+      type: 3}
+    PrefabPreview: {fileID: 1000012131715578, guid: 1e6eb80820805724bbaf4b0b6dc47e05,
+      type: 3}
+    Icon: {fileID: 0}
+    Portrait: {fileID: 0}
+    Level: 0
+    Health: 0
+    InfoChar: 
+    SkillPoints: 0
+    ActiveSkill: 0
+    Skill: []
+  Enemies: []

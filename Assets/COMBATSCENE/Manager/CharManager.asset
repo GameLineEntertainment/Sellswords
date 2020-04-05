@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d106a79d0cef8c4aa0cbc5513389554, type: 3}
+  m_Name: CharManager
+  m_EditorClassIdentifier: 
+  Settings:
+    Health: 10
+    Damage: 10
+    Speed: 1.5
+    AttackDelay: 0.5
+  Characters:
+  - Type: 1
+    Prefab: {fileID: 8536964463261660337, guid: b4bfec0b15afc994697e4fb7531a4d74,
+      type: 3}
+    UseSpellId: 1
+    SpellPosOffset: {x: 0, y: 0, z: 0}
+  - Type: 2
+    Prefab: {fileID: 7256448761535276981, guid: f7d7f99560329f64c9281f130ee45f7b,
+      type: 3}
+    UseSpellId: 2
+    SpellPosOffset: {x: 0, y: 0, z: 0}
+  - Type: 0
+    Prefab: {fileID: 2388989093116909354, guid: 4dfead616bf7a6b438389b7c12ecb320,
+      type: 3}
+    UseSpellId: 3
+    SpellPosOffset: {x: 0, y: 0, z: 0}

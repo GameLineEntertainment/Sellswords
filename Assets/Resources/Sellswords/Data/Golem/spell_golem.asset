@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4a70756b134033ba8aa3bbfab3a6fb, type: 3}
+  m_Name: spell_golem
+  m_EditorClassIdentifier: 
+  Id: 3
+  PoolSize: 10
+  SpellColorType: 3
+  SpellType: 2
+  Spell: {fileID: 1509159121756352124, guid: 4b4406a18e0260845952e54ea78d1ecf, type: 3}
+  Damage: 30
+  Speed: 0
+  HitRadius: 3
+  DestroyAfterTime: 2
+  MustSpawnOnEnemyPosition: 1
+  SpawnSpellPosition: {fileID: 0}
+  StatusObjects:
+  - {fileID: 11400000, guid: e46498a3629f74e44bba7d08d8e0992e, type: 2}
+  - {fileID: 11400000, guid: fa0208b0711f4bd4bafb49ff39b01374, type: 2}

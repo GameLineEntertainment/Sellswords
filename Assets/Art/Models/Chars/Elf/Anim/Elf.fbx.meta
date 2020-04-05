@@ -1,0 +1,2292 @@
+fileFormatVersion: 2
+guid: e9463d54cf6d6804a87c487b600ed9b6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arows_low:Group64449
+    100002: arows_low:Group64461
+    100004: arows_low:Group64475
+    100006: arows_low:Group64489
+    100008: arows_low:Group64503
+    100010: Body_low:Group40104
+    100012: Body_low:polySurface1
+    100014: Body_low:polySurface4
+    100016: boot:polySurface1
+    100018: boot:polySurface2
+    100020: boot:polySurface3
+    100022: boot:polySurface4
+    100024: boot:polySurface5
+    100026: Bow
+    100028: bow1:ZBrush_defualt_group
+    100030: Brows_low:Group1
+    100032: Butt_ctrl
+    100034: Camera
+    100036: Chest_ctrl
+    100038: corset_low:ZBrush_defualt_group
+    100040: //RootNode
+    100042: Hair
+    100044: Hair 1
+    100046: hair_1_low:Group1
+    100048: hair_2_low:Group1
+    100050: hair_3_low:Group1
+    100052: Hair_ctrl
+    100054: head
+    100056: Head_ctrl
+    100058: IK
+    100060: joint10
+    100062: joint11
+    100064: joint12
+    100066: joint14
+    100068: joint15
+    100070: joint16
+    100072: joint5
+    100074: joint6
+    100076: joint7
+    100078: joint8
+    100080: joint9
+    100082: knife_low:ZBrush_defualt_group
+    100084: L_arm
+    100086: L_arm_ctrl
+    100088: L_b1
+    100090: L_b2
+    100092: L_b3
+    100094: L_boobe
+    100096: L_kist
+    100098: L_kist_end
+    100100: L_koleno
+    100102: L_Leg
+    100104: L_leg
+    100106: L_leg_ctrl
+    100108: L_lokot
+    100110: L_mys
+    100112: L_o1
+    100114: L_o2
+    100116: L_o3
+    100118: L_o4
+    100120: L_plecho
+    100122: L_pyata
+    100124: L_stupnya
+    100126: L_u1
+    100128: L_u2
+    100130: L_u3
+    100132: Main_ctrl
+    100134: Mesh
+    100136: Neck
+    100138: Neck_end
+    100140: pukan
+    100142: R_arm
+    100144: R_arm_ctrl
+    100146: R_b1
+    100148: R_b2
+    100150: R_b3
+    100152: R_boobe
+    100154: R_kist
+    100156: R_kist_end
+    100158: R_koleno
+    100160: R_Leg
+    100162: R_leg
+    100164: R_leg_ctrl
+    100166: R_lokot
+    100168: R_mys
+    100170: R_o1
+    100172: R_o2
+    100174: R_o3
+    100176: R_o4
+    100178: R_plecho
+    100180: R_pyata
+    100182: R_stupnya
+    100184: R_u1
+    100186: R_u2
+    100188: R_u3
+    100190: shit_place
+    100192: Spine
+    100194: Spine_curve
+    100196: spine_down
+    100198: spine_mid
+    100200: spine_top
+    400000: arows_low:Group64449
+    400002: arows_low:Group64461
+    400004: arows_low:Group64475
+    400006: arows_low:Group64489
+    400008: arows_low:Group64503
+    400010: Body_low:Group40104
+    400012: Body_low:polySurface1
+    400014: Body_low:polySurface4
+    400016: boot:polySurface1
+    400018: boot:polySurface2
+    400020: boot:polySurface3
+    400022: boot:polySurface4
+    400024: boot:polySurface5
+    400026: Bow
+    400028: bow1:ZBrush_defualt_group
+    400030: Brows_low:Group1
+    400032: Butt_ctrl
+    400034: Camera
+    400036: Chest_ctrl
+    400038: corset_low:ZBrush_defualt_group
+    400040: //RootNode
+    400042: Hair
+    400044: Hair 1
+    400046: hair_1_low:Group1
+    400048: hair_2_low:Group1
+    400050: hair_3_low:Group1
+    400052: Hair_ctrl
+    400054: head
+    400056: Head_ctrl
+    400058: IK
+    400060: joint10
+    400062: joint11
+    400064: joint12
+    400066: joint14
+    400068: joint15
+    400070: joint16
+    400072: joint5
+    400074: joint6
+    400076: joint7
+    400078: joint8
+    400080: joint9
+    400082: knife_low:ZBrush_defualt_group
+    400084: L_arm
+    400086: L_arm_ctrl
+    400088: L_b1
+    400090: L_b2
+    400092: L_b3
+    400094: L_boobe
+    400096: L_kist
+    400098: L_kist_end
+    400100: L_koleno
+    400102: L_Leg
+    400104: L_leg
+    400106: L_leg_ctrl
+    400108: L_lokot
+    400110: L_mys
+    400112: L_o1
+    400114: L_o2
+    400116: L_o3
+    400118: L_o4
+    400120: L_plecho
+    400122: L_pyata
+    400124: L_stupnya
+    400126: L_u1
+    400128: L_u2
+    400130: L_u3
+    400132: Main_ctrl
+    400134: Mesh
+    400136: Neck
+    400138: Neck_end
+    400140: pukan
+    400142: R_arm
+    400144: R_arm_ctrl
+    400146: R_b1
+    400148: R_b2
+    400150: R_b3
+    400152: R_boobe
+    400154: R_kist
+    400156: R_kist_end
+    400158: R_koleno
+    400160: R_Leg
+    400162: R_leg
+    400164: R_leg_ctrl
+    400166: R_lokot
+    400168: R_mys
+    400170: R_o1
+    400172: R_o2
+    400174: R_o3
+    400176: R_o4
+    400178: R_plecho
+    400180: R_pyata
+    400182: R_stupnya
+    400184: R_u1
+    400186: R_u2
+    400188: R_u3
+    400190: shit_place
+    400192: Spine
+    400194: Spine_curve
+    400196: spine_down
+    400198: spine_mid
+    400200: spine_top
+    4300000: Body_low:polySurface1
+    4300002: boot:polySurface2
+    4300004: boot:polySurface3
+    4300006: boot:polySurface4
+    4300008: boot:polySurface5
+    4300010: bow1:ZBrush_defualt_group
+    4300012: Body_low:polySurface4
+    4300014: Brows_low:Group1
+    4300016: corset_low:ZBrush_defualt_group
+    4300018: hair_1_low:Group1
+    4300020: hair_2_low:Group1
+    4300022: hair_3_low:Group1
+    4300024: knife_low:ZBrush_defualt_group
+    4300026: arows_low:Group64503
+    4300028: arows_low:Group64489
+    4300030: arows_low:Group64475
+    4300032: arows_low:Group64461
+    4300034: arows_low:Group64449
+    7400000: Run
+    7400002: Attack
+    7400004: Idle
+    7400006: Dead
+    7400008: Damage
+    9500000: //RootNode
+    13700000: arows_low:Group64449
+    13700002: arows_low:Group64461
+    13700004: arows_low:Group64475
+    13700006: arows_low:Group64489
+    13700008: arows_low:Group64503
+    13700010: Body_low:polySurface1
+    13700012: Body_low:polySurface4
+    13700014: boot:polySurface2
+    13700016: boot:polySurface3
+    13700018: boot:polySurface4
+    13700020: boot:polySurface5
+    13700022: bow1:ZBrush_defualt_group
+    13700024: Brows_low:Group1
+    13700026: corset_low:ZBrush_defualt_group
+    13700028: hair_1_low:Group1
+    13700030: hair_2_low:Group1
+    13700032: hair_3_low:Group1
+    13700034: knife_low:ZBrush_defualt_group
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 26
+      lastFrame: 30.5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_low:Group40104
+        weight: 0
+      - path: Body_low:Group40104/Body_low:polySurface1
+        weight: 0
+      - path: boot:polySurface1
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface2
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface3
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface4
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: IK
+        weight: 0
+      - path: IK/Hair
+        weight: 0
+      - path: IK/L_arm
+        weight: 0
+      - path: IK/L_leg
+        weight: 0
+      - path: IK/R_arm
+        weight: 0
+      - path: IK/R_leg
+        weight: 0
+      - path: IK/Spine
+        weight: 0
+      - path: IK/Spine_curve
+        weight: 0
+      - path: Main_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/Head_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/L_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/R_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Hair_ctrl
+        weight: 0
+      - path: Main_ctrl/L_leg_ctrl
+        weight: 0
+      - path: Main_ctrl/R_leg_ctrl
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/arows_low:Group64449
+        weight: 0
+      - path: Mesh/arows_low:Group64461
+        weight: 0
+      - path: Mesh/arows_low:Group64475
+        weight: 0
+      - path: Mesh/arows_low:Group64489
+        weight: 0
+      - path: Mesh/arows_low:Group64503
+        weight: 0
+      - path: Mesh/Body_low:polySurface4
+        weight: 0
+      - path: Mesh/boot:polySurface5
+        weight: 0
+      - path: Mesh/bow1:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/Brows_low:Group1
+        weight: 0
+      - path: Mesh/corset_low:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/hair_1_low:Group1
+        weight: 0
+      - path: Mesh/hair_2_low:Group1
+        weight: 0
+      - path: Mesh/hair_3_low:Group1
+        weight: 0
+      - path: Mesh/knife_low:ZBrush_defualt_group
+        weight: 0
+      - path: pukan
+        weight: 1
+      - path: pukan/L_Leg
+        weight: 1
+      - path: pukan/L_Leg/L_koleno
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya/L_mys
+        weight: 1
+      - path: pukan/R_Leg
+        weight: 1
+      - path: pukan/R_Leg/R_koleno
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya/R_mys
+        weight: 1
+      - path: pukan/spine_down
+        weight: 1
+      - path: pukan/spine_down/spine_mid
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11/joint10
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15/joint16
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2/L_b3
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3/L_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2/L_u3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8/joint9
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/shit_place
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2/R_b3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3/R_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2/R_u3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_low:Group40104
+        weight: 0
+      - path: Body_low:Group40104/Body_low:polySurface1
+        weight: 0
+      - path: boot:polySurface1
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface2
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface3
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface4
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: IK
+        weight: 0
+      - path: IK/Hair
+        weight: 0
+      - path: IK/L_arm
+        weight: 0
+      - path: IK/L_leg
+        weight: 0
+      - path: IK/R_arm
+        weight: 0
+      - path: IK/R_leg
+        weight: 0
+      - path: IK/Spine
+        weight: 0
+      - path: IK/Spine_curve
+        weight: 0
+      - path: Main_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/Head_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/L_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/R_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Hair_ctrl
+        weight: 0
+      - path: Main_ctrl/L_leg_ctrl
+        weight: 0
+      - path: Main_ctrl/R_leg_ctrl
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/arows_low:Group64449
+        weight: 0
+      - path: Mesh/arows_low:Group64461
+        weight: 0
+      - path: Mesh/arows_low:Group64475
+        weight: 0
+      - path: Mesh/arows_low:Group64489
+        weight: 0
+      - path: Mesh/arows_low:Group64503
+        weight: 0
+      - path: Mesh/Body_low:polySurface4
+        weight: 0
+      - path: Mesh/boot:polySurface5
+        weight: 0
+      - path: Mesh/bow1:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/Brows_low:Group1
+        weight: 0
+      - path: Mesh/corset_low:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/hair_1_low:Group1
+        weight: 0
+      - path: Mesh/hair_2_low:Group1
+        weight: 0
+      - path: Mesh/hair_3_low:Group1
+        weight: 0
+      - path: Mesh/knife_low:ZBrush_defualt_group
+        weight: 0
+      - path: pukan
+        weight: 1
+      - path: pukan/L_Leg
+        weight: 1
+      - path: pukan/L_Leg/L_koleno
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya/L_mys
+        weight: 1
+      - path: pukan/R_Leg
+        weight: 1
+      - path: pukan/R_Leg/R_koleno
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya/R_mys
+        weight: 1
+      - path: pukan/spine_down
+        weight: 1
+      - path: pukan/spine_down/spine_mid
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11/joint10
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15/joint16
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2/L_b3
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3/L_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2/L_u3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8/joint9
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/shit_place
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2/R_b3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3/R_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2/R_u3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_low:Group40104
+        weight: 0
+      - path: Body_low:Group40104/Body_low:polySurface1
+        weight: 0
+      - path: boot:polySurface1
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface2
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface3
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface4
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: IK
+        weight: 0
+      - path: IK/Hair
+        weight: 0
+      - path: IK/L_arm
+        weight: 0
+      - path: IK/L_leg
+        weight: 0
+      - path: IK/R_arm
+        weight: 0
+      - path: IK/R_leg
+        weight: 0
+      - path: IK/Spine
+        weight: 0
+      - path: IK/Spine_curve
+        weight: 0
+      - path: Main_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/Head_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/L_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/R_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Hair_ctrl
+        weight: 0
+      - path: Main_ctrl/L_leg_ctrl
+        weight: 0
+      - path: Main_ctrl/R_leg_ctrl
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/arows_low:Group64449
+        weight: 0
+      - path: Mesh/arows_low:Group64461
+        weight: 0
+      - path: Mesh/arows_low:Group64475
+        weight: 0
+      - path: Mesh/arows_low:Group64489
+        weight: 0
+      - path: Mesh/arows_low:Group64503
+        weight: 0
+      - path: Mesh/Body_low:polySurface4
+        weight: 0
+      - path: Mesh/boot:polySurface5
+        weight: 0
+      - path: Mesh/bow1:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/Brows_low:Group1
+        weight: 0
+      - path: Mesh/corset_low:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/hair_1_low:Group1
+        weight: 0
+      - path: Mesh/hair_2_low:Group1
+        weight: 0
+      - path: Mesh/hair_3_low:Group1
+        weight: 0
+      - path: Mesh/knife_low:ZBrush_defualt_group
+        weight: 0
+      - path: pukan
+        weight: 1
+      - path: pukan/L_Leg
+        weight: 1
+      - path: pukan/L_Leg/L_koleno
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya/L_mys
+        weight: 1
+      - path: pukan/R_Leg
+        weight: 1
+      - path: pukan/R_Leg/R_koleno
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya/R_mys
+        weight: 1
+      - path: pukan/spine_down
+        weight: 1
+      - path: pukan/spine_down/spine_mid
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11/joint10
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15/joint16
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2/L_b3
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3/L_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2/L_u3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8/joint9
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/shit_place
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2/R_b3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3/R_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2/R_u3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dead
+      takeName: Take 001
+      firstFrame: 85
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_low:Group40104
+        weight: 0
+      - path: Body_low:Group40104/Body_low:polySurface1
+        weight: 0
+      - path: boot:polySurface1
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface2
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface3
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface4
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: IK
+        weight: 0
+      - path: IK/Hair
+        weight: 0
+      - path: IK/L_arm
+        weight: 0
+      - path: IK/L_leg
+        weight: 0
+      - path: IK/R_arm
+        weight: 0
+      - path: IK/R_leg
+        weight: 0
+      - path: IK/Spine
+        weight: 0
+      - path: IK/Spine_curve
+        weight: 0
+      - path: Main_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/Head_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/L_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/R_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Hair_ctrl
+        weight: 0
+      - path: Main_ctrl/L_leg_ctrl
+        weight: 0
+      - path: Main_ctrl/R_leg_ctrl
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/arows_low:Group64449
+        weight: 0
+      - path: Mesh/arows_low:Group64461
+        weight: 0
+      - path: Mesh/arows_low:Group64475
+        weight: 0
+      - path: Mesh/arows_low:Group64489
+        weight: 0
+      - path: Mesh/arows_low:Group64503
+        weight: 0
+      - path: Mesh/Body_low:polySurface4
+        weight: 0
+      - path: Mesh/boot:polySurface5
+        weight: 0
+      - path: Mesh/bow1:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/Brows_low:Group1
+        weight: 0
+      - path: Mesh/corset_low:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/hair_1_low:Group1
+        weight: 0
+      - path: Mesh/hair_2_low:Group1
+        weight: 0
+      - path: Mesh/hair_3_low:Group1
+        weight: 0
+      - path: Mesh/knife_low:ZBrush_defualt_group
+        weight: 0
+      - path: pukan
+        weight: 1
+      - path: pukan/L_Leg
+        weight: 1
+      - path: pukan/L_Leg/L_koleno
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya/L_mys
+        weight: 1
+      - path: pukan/R_Leg
+        weight: 1
+      - path: pukan/R_Leg/R_koleno
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya/R_mys
+        weight: 1
+      - path: pukan/spine_down
+        weight: 1
+      - path: pukan/spine_down/spine_mid
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11/joint10
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15/joint16
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2/L_b3
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3/L_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2/L_u3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8/joint9
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/shit_place
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2/R_b3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3/R_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2/R_u3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Damage
+      takeName: Take 001
+      firstFrame: 74
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body_low:Group40104
+        weight: 0
+      - path: Body_low:Group40104/Body_low:polySurface1
+        weight: 0
+      - path: boot:polySurface1
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface2
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface3
+        weight: 0
+      - path: boot:polySurface1/boot:polySurface4
+        weight: 0
+      - path: Camera
+        weight: 0
+      - path: IK
+        weight: 0
+      - path: IK/Hair
+        weight: 0
+      - path: IK/L_arm
+        weight: 0
+      - path: IK/L_leg
+        weight: 0
+      - path: IK/R_arm
+        weight: 0
+      - path: IK/R_leg
+        weight: 0
+      - path: IK/Spine
+        weight: 0
+      - path: IK/Spine_curve
+        weight: 0
+      - path: Main_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/Head_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/L_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Chest_ctrl/R_arm_ctrl
+        weight: 0
+      - path: Main_ctrl/Butt_ctrl/Hair_ctrl
+        weight: 0
+      - path: Main_ctrl/L_leg_ctrl
+        weight: 0
+      - path: Main_ctrl/R_leg_ctrl
+        weight: 0
+      - path: Mesh
+        weight: 0
+      - path: Mesh/arows_low:Group64449
+        weight: 0
+      - path: Mesh/arows_low:Group64461
+        weight: 0
+      - path: Mesh/arows_low:Group64475
+        weight: 0
+      - path: Mesh/arows_low:Group64489
+        weight: 0
+      - path: Mesh/arows_low:Group64503
+        weight: 0
+      - path: Mesh/Body_low:polySurface4
+        weight: 0
+      - path: Mesh/boot:polySurface5
+        weight: 0
+      - path: Mesh/bow1:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/Brows_low:Group1
+        weight: 0
+      - path: Mesh/corset_low:ZBrush_defualt_group
+        weight: 0
+      - path: Mesh/hair_1_low:Group1
+        weight: 0
+      - path: Mesh/hair_2_low:Group1
+        weight: 0
+      - path: Mesh/hair_3_low:Group1
+        weight: 0
+      - path: Mesh/knife_low:ZBrush_defualt_group
+        weight: 0
+      - path: pukan
+        weight: 1
+      - path: pukan/L_Leg
+        weight: 1
+      - path: pukan/L_Leg/L_koleno
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya
+        weight: 1
+      - path: pukan/L_Leg/L_koleno/L_pyata/L_stupnya/L_mys
+        weight: 1
+      - path: pukan/R_Leg
+        weight: 1
+      - path: pukan/R_Leg/R_koleno
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya
+        weight: 1
+      - path: pukan/R_Leg/R_koleno/R_pyata/R_stupnya/R_mys
+        weight: 1
+      - path: pukan/spine_down
+        weight: 1
+      - path: pukan/spine_down/spine_mid
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint12/joint11/joint10
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/Bow/joint14/joint15/joint16
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_b1/L_b2/L_b3
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_o1/L_o2/L_o3/L_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/L_boobe/L_plecho/L_lokot/L_kist/L_kist_end/L_u1/L_u2/L_u3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/Hair 1/joint5/joint6/joint7/joint8/joint9
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/Neck/Neck_end/head/shit_place
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_b1/R_b2/R_b3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_o1/R_o2/R_o3/R_o4
+        weight: 0
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2
+        weight: 1
+      - path: pukan/spine_down/spine_mid/spine_top/R_boobe/R_plecho/R_lokot/R_kist/R_kist_end/R_u1/R_u2/R_u3
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: pukan
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_Leg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_Leg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_koleno
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_koleno
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_pyata
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_pyata
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_down
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine_mid
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_boobe
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_boobe
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_plecho
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_plecho
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_lokot
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_lokot
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_kist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_kist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_mys
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_mys
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shit_place
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint12
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint11
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint10
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_u1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_u2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_u3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_o1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_o2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: L_o3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint14
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint15
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: joint16
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_b1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_b2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_b3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_u1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_u2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_u3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_o1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_o2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: R_o3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Elf(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Body_low:Group40104
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Body_low:polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: boot:polySurface1
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: boot:polySurface2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: boot:polySurface3
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: boot:polySurface4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: -1, y: 1, z: 1}
+      transformModified: 1
+    - name: Camera
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: IK
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hair
+      position: {x: -.00757570565, y: .0239761136, z: -.0263745263}
+      rotation: {x: -.476519167, y: -.522426546, z: .476519167, w: .522426546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_arm
+      position: {x: -.0042866366, y: .0527151674, z: .0193527676}
+      rotation: {x: 3.93617761e-08, y: .99557513, z: 4.17025547e-07, w: .0939693153}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_leg
+      position: {x: -.0189737417, y: -.00139247009, z: .0167660583}
+      rotation: {x: -.495918483, y: -.504667222, z: .460197747, w: .536277831}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_arm
+      position: {x: .00902718585, y: .0779844895, z: .0146741383}
+      rotation: {x: .0939693153, y: -4.17025547e-07, z: .99557513, w: -3.93617761e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_leg
+      position: {x: .0179857351, y: -.00139246532, z: -.0190091617}
+      rotation: {x: .536277831, y: -.460197747, z: -.504667222, w: .495918483}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: -.00310627953, y: .0951285884, z: .000835379586}
+      rotation: {x: .0970703438, y: .163395301, z: .0444637053, w: .980766177}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine_curve
+      position: {x: 8.45435992e-18, y: .0538349599, z: -.00915168971}
+      rotation: {x: .107127033, y: .00402358733, z: .0373162702, w: .993536651}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Main_ctrl
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Butt_ctrl
+      position: {x: 8.45435992e-18, y: .0538349599, z: -.00915168971}
+      rotation: {x: .0989384055, y: .177921176, z: .0179827958, w: .97889322}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest_ctrl
+      position: {x: -0, y: .0425874367, z: 0}
+      rotation: {x: .118865483, y: -0, z: -0, w: .992910385}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head_ctrl
+      position: {x: -6.84881559e-18, y: .00768729392, z: .00545607507}
+      rotation: {x: -.117156722, y: -.159426153, z: .0257995445, w: .979893863}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_arm_ctrl
+      position: {x: -.0139188906, y: -.0310435072, z: .0331062488}
+      rotation: {x: .0219532158, y: .662886679, z: .0218730848, w: .748078167}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: R_arm_ctrl
+      position: {x: .0019357506, y: -.00891874731, z: .0232669674}
+      rotation: {x: -.292977065, y: -.713256419, z: -.0640023276, w: .633508801}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hair_ctrl
+      position: {x: -.0032556497, y: -.0327012464, z: -.0128684603}
+      rotation: {x: 1.6654496e-05, y: .100750394, z: -1.68652855e-06, w: .99491173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_leg_ctrl
+      position: {x: -.0189737417, y: -.00139247009, z: .0167660583}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: .5, y: 1, z: .5}
+      transformModified: 1
+    - name: R_leg_ctrl
+      position: {x: .0179857351, y: -.00139246532, z: -.0190091617}
+      rotation: {x: 0, y: .299952567, z: -0, w: .95395416}
+      scale: {x: .5, y: 1, z: .5}
+      transformModified: 1
+    - name: Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arows_low:Group64449
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arows_low:Group64461
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arows_low:Group64475
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arows_low:Group64489
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: arows_low:Group64503
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Body_low:polySurface4
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: boot:polySurface5
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: bow1:ZBrush_defualt_group
+      position: {x: -.0156056117, y: .109015569, z: -.0787928626}
+      rotation: {x: .581405938, y: .431391478, z: .340039074, w: .600201607}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Brows_low:Group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: corset_low:ZBrush_defualt_group
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_1_low:Group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_2_low:Group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hair_3_low:Group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knife_low:ZBrush_defualt_group
+      position: {x: .0017358918, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: .0100338757, w: .999949694}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pukan
+      position: {x: 8.32667219e-18, y: .0719305426, z: -.00915168971}
+      rotation: {x: 4.24915982e-07, y: -2.47333621e-15, z: -5.82076609e-09, w: 1}
+      scale: {x: 1.00000024, y: 1, z: .999999881}
+      transformModified: 1
+    - name: L_Leg
+      position: {x: -.00638504885, y: -.00167761045, z: .00272611692}
+      rotation: {x: .511775017, y: .487300932, z: .478360415, w: .521340072}
+      scale: {x: 1.00000012, y: 1.00000012, z: .999999344}
+      transformModified: 1
+    - name: L_koleno
+      position: {x: -.0339774378, y: -1.38777875e-19, z: 7.54450674e-18}
+      rotation: {x: -.998663425, y: -.0516859777, z: -1.8315955e-08, w: -3.58186085e-08}
+      scale: {x: 1.00000048, y: 1, z: 1.00000036}
+      transformModified: 1
+    - name: L_pyata
+      position: {x: -.0296747722, y: -8.32667219e-18, z: -6.89402845e-18}
+      rotation: {x: .865646899, y: .500654995, z: -1.31589433e-08, w: -1.69114855e-08}
+      scale: {x: .999999583, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: L_stupnya
+      position: {x: -.00919104274, y: -5.551115e-19, z: 1.34332829e-18}
+      rotation: {x: -1.43950034e-08, y: -2.48223913e-08, z: -.343808442, w: .939039886}
+      scale: {x: 1.00000083, y: .999999464, z: .999999642}
+      transformModified: 1
+    - name: L_mys
+      position: {x: -.00442365371, y: -1.17961198e-18, z: 4.2562967e-11}
+      rotation: {x: .0335578807, y: -.706310034, z: .0335578732, w: .706310153}
+      scale: {x: 1.00000012, y: .999999702, z: .999999702}
+      transformModified: 1
+    - name: R_Leg
+      position: {x: .00638504978, y: -.0016775846, z: .00272611412}
+      rotation: {x: -.521340132, y: .478360385, z: -.487300932, w: .511775017}
+      scale: {x: .99999994, y: 1, z: .99999994}
+      transformModified: 1
+    - name: R_koleno
+      position: {x: .0339774154, y: -7.77644438e-09, z: -7.61109009e-10}
+      rotation: {x: .998663366, y: .0516860001, z: -1.05736007e-08, w: 3.28210099e-08}
+      scale: {x: .999999881, y: 1.00000012, z: 1.0000006}
+      transformModified: 1
+    - name: R_pyata
+      position: {x: .0296748132, y: 2.55213339e-09, z: -1.27630226e-08}
+      rotation: {x: .865646958, y: .500654936, z: -1.35690339e-08, w: 1.37549936e-08}
+      scale: {x: 1.00000012, y: .999999762, z: .999999464}
+      transformModified: 1
+    - name: R_stupnya
+      position: {x: .00919104554, y: 9.00245656e-09, z: -6.45371401e-09}
+      rotation: {x: 1.74779657e-08, y: 1.15710632e-08, z: -.343808502, w: .939039826}
+      scale: {x: 1.00000012, y: 1.0000006, z: .99999994}
+      transformModified: 1
+    - name: R_mys
+      position: {x: .00442365557, y: -7.42022621e-09, z: -2.61156199e-08}
+      rotation: {x: .0335578769, y: -.706310093, z: .0335578769, w: .706310093}
+      scale: {x: 1.00000036, y: .99999994, z: .999999702}
+      transformModified: 1
+    - name: spine_down
+      position: {x: -2.22044993e-18, y: .0143789994, z: .00307893008}
+      rotation: {x: .496441424, y: -.503533483, z: -.496441424, w: .503533483}
+      scale: {x: 1, y: .999998629, z: .999999881}
+      transformModified: 1
+    - name: spine_mid
+      position: {x: -.0138553996, y: -.00113900995, z: 7.21645022e-18}
+      rotation: {x: -.496441424, y: .503533542, z: .496441424, w: .503533423}
+      scale: {x: .999999642, y: .999999762, z: 1.00000107}
+      transformModified: 1
+    - name: spine_top
+      position: {x: -2.88928997e-18, y: .0141738998, z: -.000808229961}
+      rotation: {x: -5.820886e-09, y: -6.00258545e-08, z: -5.04492732e-08, w: 1}
+      scale: {x: 1, y: .99999994, z: .999999762}
+      transformModified: 1
+    - name: L_boobe
+      position: {x: -.00367187988, y: -7.01610988e-05, z: .00641839951}
+      rotation: {x: -8.77712036e-09, y: .182900831, z: -.0566436499, w: .981498301}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: L_plecho
+      position: {x: -.0075503611, y: -.00187915808, z: -.00606773607}
+      rotation: {x: .126064628, y: -.0458986871, z: -.311162353, w: .940839469}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: L_lokot
+      position: {x: -.0143486727, y: -.0165607762, z: -.00337040098}
+      rotation: {x: .0877592638, y: .963893235, z: .136532068, w: .211109132}
+      scale: {x: .999999523, y: 1, z: .999999881}
+      transformModified: 1
+    - name: L_kist
+      position: {x: .0100520262, y: -.017061431, z: -.00755552808}
+      rotation: {x: -.00138365501, y: .278710812, z: .0107225813, w: .960314214}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: L_kist_end
+      position: {x: .00127093843, y: -.00294218329, z: -7.16485811e-05}
+      rotation: {x: -4.51609017e-09, y: .0949249864, z: 1.69299845e-08, w: .995484412}
+      scale: {x: 1.00000036, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: L_u1
+      position: {x: .00242589228, y: -.00306294044, z: -.00108017423}
+      rotation: {x: .0386129171, y: -.777952015, z: -.060468208, w: -.624214172}
+      scale: {x: .999999702, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: L_u2
+      position: {x: -4.67350401e-05, y: -.00221365946, z: .000595522695}
+      rotation: {x: .149838433, y: .859698057, z: -.0799441785, w: -.481743425}
+      scale: {x: 1.00000024, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: L_u3
+      position: {x: -.000412449095, y: -.00237155822, z: -.000307601411}
+      rotation: {x: 2.65234732e-08, y: -.990334272, z: -2.49622492e-08, w: -.13870126}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: L_o1
+      position: {x: .00163399347, y: -.00328868558, z: .000157413015}
+      rotation: {x: .0141570568, y: -.997892261, z: -.0372837111, w: -.0511926413}
+      scale: {x: .999999583, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: L_o2
+      position: {x: -.000966616848, y: -.00192739198, z: -8.80381849e-05}
+      rotation: {x: -.253782898, y: -.8281703, z: -.0291023441, w: .498880088}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: L_o3
+      position: {x: -.000769573904, y: -.00281950436, z: .000238550128}
+      rotation: {x: -.491887718, y: .174089074, z: -.750632465, w: -.405327499}
+      scale: {x: 1.00000024, y: .99999994, z: 1.00000036}
+      transformModified: 1
+    - name: L_o4
+      position: {x: -.000991835725, y: .00265831919, z: .00170461461}
+      rotation: {x: 3.7767542e-08, y: -.992507637, z: -4.73575916e-08, w: -.122183263}
+      scale: {x: .999999881, y: 1.00000024, z: .999999583}
+      transformModified: 1
+    - name: L_b1
+      position: {x: .00104852056, y: -.00183590944, z: -.00276769907}
+      rotation: {x: 8.56600479e-09, y: -.981607914, z: 1.26261819e-08, w: -.190908387}
+      scale: {x: .999999762, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: L_b2
+      position: {x: -8.35635001e-05, y: -.00178656727, z: .00147109316}
+      rotation: {x: 2.98008862e-09, y: -.735882223, z: 7.15121828e-09, w: .67710954}
+      scale: {x: 1.00000012, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: L_b3
+      position: {x: .00110339175, y: -.00182997284, z: .000159610136}
+      rotation: {x: -4.11767331e-09, y: -.0717670172, z: 1.81560704e-08, w: .997421443}
+      scale: {x: .999999762, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Bow
+      position: {x: .00117376214, y: -.00575731741, z: -.00251875189}
+      rotation: {x: .100772373, y: -.594368696, z: -.269047469, w: -.751121998}
+      scale: {x: 1, y: .999999642, z: 1.00000036}
+      transformModified: 1
+    - name: joint14
+      position: {x: -.00856182072, y: .00022261891, z: -.000463471253}
+      rotation: {x: -.0521775559, y: -.031769786, z: .695884585, w: .715550661}
+      scale: {x: 1.00000012, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: joint15
+      position: {x: -.00781953055, y: .000285810296, z: -.000654172036}
+      rotation: {x: -.0122335246, y: -.0471358486, z: -.0485330299, w: .997633815}
+      scale: {x: .999999881, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: joint16
+      position: {x: -.0275568925, y: -.000264679547, z: .000495214947}
+      rotation: {x: -.0992490277, y: .700106978, z: .09924905, w: .700106859}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: joint12
+      position: {x: .00839587953, y: -.00226364005, z: 1.85036002e-18}
+      rotation: {x: .0114049893, y: .0228106286, z: -.508151829, w: .860889912}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: joint11
+      position: {x: .012514499, y: -.00431412971, z: 3.56876984e-18}
+      rotation: {x: .00171518209, y: .0102392277, z: -.514633179, w: .857347667}
+      scale: {x: 1, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: joint10
+      position: {x: .0171131995, y: .0175059997, z: .000496706984}
+      rotation: {x: -3.01630962e-07, y: 4.43834722e-07, z: .363274306, w: .931682289}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: Neck
+      position: {x: 6.09227992e-18, y: .00395200914, z: .00271285651}
+      rotation: {x: -.379840314, y: .596423805, z: -.379840314, w: .596423805}
+      scale: {x: 1.00000143, y: .999999285, z: .999999881}
+      transformModified: 1
+    - name: Neck_end
+      position: {x: -.00191929459, y: 0, z: 0}
+      rotation: {x: -4.06939513e-08, y: 2.46798422e-08, z: .0251334533, w: .999684155}
+      scale: {x: .999999166, y: .999999285, z: .999999523}
+      transformModified: 1
+    - name: head
+      position: {x: -.00223032013, y: 0, z: 0}
+      rotation: {x: 4.39404211e-08, y: -1.7020124e-08, z: -.19440484, w: .980921388}
+      scale: {x: .999999762, y: 1.00000095, z: 1.00000072}
+      transformModified: 1
+    - name: shit_place
+      position: {x: -.0170061793, y: -3.330669e-18, z: 4.93038055e-34}
+      rotation: {x: .475538552, y: -.523319364, z: .475538582, w: .523319364}
+      scale: {x: .999999642, y: .999999881, z: 1.00000012}
+      transformModified: 1
+    - name: Hair 1
+      position: {x: -.000192932188, y: .00925990287, z: -2.20060959e-18}
+      rotation: {x: .171273649, y: -.985223472, z: -1.05512994e-08, w: -4.24837943e-08}
+      scale: {x: 1.00000024, y: 1.0000006, z: 1.00000107}
+      transformModified: 1
+    - name: joint5
+      position: {x: -.0166453291, y: -3.330669e-18, z: -1.84800276e-18}
+      rotation: {x: 5.1908728e-08, y: 6.58574493e-08, z: .202640429, w: .979253292}
+      scale: {x: .999999762, y: 1.00000012, z: .999999046}
+      transformModified: 1
+    - name: joint6
+      position: {x: -.018614145, y: 2.220446e-18, z: 1.38382085e-18}
+      rotation: {x: .998512566, y: .0545229577, z: 1.24630395e-08, w: 1.06450294e-07}
+      scale: {x: .999998927, y: 1.00000012, z: .999999404}
+      transformModified: 1
+    - name: joint7
+      position: {x: -.0191048887, y: -4.440892e-18, z: -2.35144845e-18}
+      rotation: {x: 2.86720727e-08, y: 2.86274826e-08, z: .0386726409, w: .999251962}
+      scale: {x: .999999642, y: .999999523, z: .999999762}
+      transformModified: 1
+    - name: joint8
+      position: {x: -.0199336838, y: 4.14216896e-18, z: -1.95553045e-18}
+      rotation: {x: -.998945773, y: -.0459068753, z: -1.33670097e-09, w: -1.3995608e-09}
+      scale: {x: .999999881, y: .99999994, z: .999999642}
+      transformModified: 1
+    - name: joint9
+      position: {x: -.011269425, y: 5.55111479e-18, z: 7.62909868e-19}
+      rotation: {x: .476519465, y: .522426367, z: -.476519436, w: .522426307}
+      scale: {x: 1.0000006, y: 1.0000006, z: .999999881}
+      transformModified: 1
+    - name: R_boobe
+      position: {x: .00367187988, y: -7.00000019e-05, z: .00641839951}
+      rotation: {x: .98149842, y: .0566391982, z: .18290168, w: -8.77711059e-09}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: R_plecho
+      position: {x: .00755031966, y: .00187899999, z: .0060677398}
+      rotation: {x: .126068175, y: -.0459000096, z: -.311170518, w: .940836251}
+      scale: {x: .999999881, y: .999999702, z: .999999523}
+      transformModified: 1
+    - name: R_lokot
+      position: {x: .0143486997, y: .0165611003, z: .00337036978}
+      rotation: {x: .0877543241, y: .963894367, z: .136531085, w: .211106852}
+      scale: {x: .999999821, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: R_kist
+      position: {x: -.0100520374, y: .0170613993, z: .00755550014}
+      rotation: {x: -.00138439063, y: .278708994, z: .0107281124, w: .960314691}
+      scale: {x: .999999762, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: R_kist_end
+      position: {x: -.00127099198, y: .00294220005, z: 7.16307622e-05}
+      rotation: {x: -4.05685086e-08, y: .0949249864, z: -2.12624585e-08, w: .995484412}
+      scale: {x: 1.00000024, y: .99999994, z: 1}
+      transformModified: 1
+    - name: R_u1
+      position: {x: -.00242581917, y: .00306300004, z: .00108022126}
+      rotation: {x: .0386020988, y: -.777953923, z: -.0604600459, w: -.624213159}
+      scale: {x: 1, y: 1, z: .999999762}
+      transformModified: 1
+    - name: R_u2
+      position: {x: 4.67751124e-05, y: .00221359986, z: -.000595560647}
+      rotation: {x: .149851441, y: .859696805, z: -.0799495652, w: -.481740803}
+      scale: {x: .999999762, y: 1, z: .999999642}
+      transformModified: 1
+    - name: R_u3
+      position: {x: .000412463531, y: .0023715999, z: .000307607988}
+      rotation: {x: -1.61486291e-08, y: -.990334272, z: 2.01294736e-09, w: -.138701186}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: R_o1
+      position: {x: -.00163394178, y: .00328870001, z: -.000157378221}
+      rotation: {x: .0141523946, y: -.99789232, z: -.0372874811, w: -.0511899628}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000048}
+      transformModified: 1
+    - name: R_o2
+      position: {x: .000966668013, y: .00192739989, z: 8.80657753e-05}
+      rotation: {x: .253794223, y: .828166068, z: .0291168131, w: -.498880476}
+      scale: {x: .999999702, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: R_o3
+      position: {x: .000769587874, y: .00281949993, z: -.000238488923}
+      rotation: {x: .491866529, y: -.17410107, z: .750645518, w: .405323982}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: R_o4
+      position: {x: .000991842127, y: -.0026583001, z: -.00170460832}
+      rotation: {x: -1.49710058e-08, y: -.992507637, z: 2.25150636e-08, w: -.122183301}
+      scale: {x: .999999642, y: .999999821, z: .999999583}
+      transformModified: 1
+    - name: R_b1
+      position: {x: -.0010485464, y: .00183589989, z: .00276769325}
+      rotation: {x: .0660445392, y: -.959192216, z: .0915025696, w: -.259259731}
+      scale: {x: .999999642, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: R_b2
+      position: {x: 8.34999955e-05, y: .00178659998, z: -.00147109001}
+      rotation: {x: .0160917751, y: .724672437, z: -.0415414497, w: -.687651992}
+      scale: {x: 1, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: R_b3
+      position: {x: -.00110339397, y: .00182999996, z: -.000159619463}
+      rotation: {x: -1.49173562e-08, y: -.0717669725, z: -5.67541534e-08, w: .997421443}
+      scale: {x: .99999994, y: .999999702, z: .999999702}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

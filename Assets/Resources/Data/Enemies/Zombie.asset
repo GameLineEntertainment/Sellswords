@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1f994fef014d419c88403a2410af01, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  Name: "\u0417\u043E\u043C\u0431\u0438"
+  FullDescription: Comming Soon
+  ShortDescription: "\u0413\u0440\u044F\u0437\u043D\u044B\u0439, \u0440\u0430\u0437\u0431\u0443\u0445\u0448\u0438\u0439,
+    \u0432\u043E\u043D\u044F\u044E\u0449\u0438\u0439 \u0442\u0440\u0443\u043F"
+  Icon: {fileID: 0}
+  Type: 0
+  Items:
+  - {fileID: 11400000, guid: e5d2fbd61be90cb4e826e5a08ade6aaa, type: 2}
+  - {fileID: 11400000, guid: 78a4f641514f73e41945c1230e7d4dfc, type: 2}
+  - {fileID: 11400000, guid: 8e5cb63a72b5ab848b83a1dac5437881, type: 2}
+  - {fileID: 11400000, guid: f7570bf03ccfe8544b0bb193cf37ceef, type: 2}
+  - {fileID: 11400000, guid: 54658d71ae9ac434ea34817e78caf700, type: 2}

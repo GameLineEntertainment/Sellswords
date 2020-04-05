@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: "\u0420\_\u0412\xA7\u0420\_\u0412\xB0\u0420\u040E\u0432\u201A\xAC\u0420\_\u0412\xB0
+    \u0420\_\u0421\u2022\u0420\_\u0421\u2013\u0420\_\u0420\u2026\u0420\u040E\u0420\u040F1
+    \u0420\u0406\u0420\u201A\u0432\u0402\u045C \u0420\_\u0421\u201D\u0420\_\u0421\u2022\u0420\_\u0421\u2014\u0420\_\u0421\u2018\u0420\u040E\u0420\u040F"
+  m_Shader: {fileID: 10704, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f3fe35ff8bc82ef4fa76d01d434cbde3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}

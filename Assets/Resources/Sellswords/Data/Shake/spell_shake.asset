@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4a70756b134033ba8aa3bbfab3a6fb, type: 3}
+  m_Name: spell_shake
+  m_EditorClassIdentifier: 
+  Id: 2
+  PoolSize: 5
+  SpellColorType: 2
+  SpellType: 3
+  Spell: {fileID: 16596118595217510, guid: 231d112907f32da4e91ddbff03276960, type: 3}
+  Damage: 30
+  Speed: 0
+  HitRadius: 2
+  DestroyAfterTime: 1
+  MustSpawnOnEnemyPosition: 1
+  SpawnSpellPosition: {fileID: 0}
+  StatusObjects:
+  - {fileID: 11400000, guid: a4342393821df0a43936425fafa5f631, type: 2}
+  - {fileID: 11400000, guid: 2cbb13c5d315775419b432eec3be87fb, type: 2}
