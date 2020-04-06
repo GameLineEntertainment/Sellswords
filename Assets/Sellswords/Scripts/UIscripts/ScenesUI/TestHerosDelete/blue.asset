@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c30670f38f83bb74aad313408418df1e, type: 3}
+  m_Name: blue
+  m_EditorClassIdentifier: 
+  LVL: 2
+  name: blue
+  icon: {fileID: 21300000, guid: 40598f3410fdc164080c9bc514d093a4, type: 3}
+  HP: 57
