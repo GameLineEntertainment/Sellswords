@@ -10,6 +10,7 @@ namespace Sellswords
         public float MassScale;
         public float SpeedRotate;
         public float WakeUpDelay;
+        public bool IsFreeze;
 
         #endregion
 
@@ -25,6 +26,7 @@ namespace Sellswords
             MassScale = data.MassScale;
             WakeUpDelay = data.WakeUpDelay;
             Rigidbody = rigidbody;
+            IsFreeze = false;
         }
 
         #endregion

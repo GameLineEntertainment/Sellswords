@@ -138,6 +138,11 @@ namespace Sellswords
             _services.InvokeService.Invoke(Reset, _destroyDelay);
         }
 
+        protected virtual void ResetAfterTime(float time)
+        {
+            _services.InvokeService.Invoke(Reset,time);
+        }
+
         protected virtual void Reset()
         {
             _isHitDone = false;
