@@ -1,45 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\ОБЧР\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\ОБЧР\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\ОБЧР\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\ОБЧР\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Sellswords_Main.-564089156.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\Sellswords_Main" t="IncludeRecursive">
-      <e p=".git\info\exclude" t="IncludeRecursive" />
+    <e p="C:\Users\Nameless\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nameless\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Sellswords_Main.-1487319784.00" t="ExcludeRecursive" />
+    <e p="D:\Sellswords_Main" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Additive Assets" t="Include">
-          <e p="AllStarCharacterLibrary" t="Include">
-            <e p="Models" t="Include">
-              <e p="Particles" t="Include">
-                <e p="RayShot.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="AbilityClasses.cs" t="Include" />
-              <e p="ASCLBasicController.cs" t="Include" />
-              <e p="BasicHitCheck.cs" t="Include" />
-              <e p="CamTarget.cs" t="Include" />
-              <e p="CharacterDemoController.cs" t="Include" />
-              <e p="CharacterPhysicsController.cs" t="Include" />
-              <e p="Editor" t="Include">
-                <e p="TurnOffRenderers.cs" t="Include" />
-              </e>
-              <e p="Enemy.cs" t="Include" />
-              <e p="Hit.cs" t="Include" />
-              <e p="killParticle.cs" t="Include" />
-              <e p="Missile.cs" t="Include" />
-              <e p="MouseOrbit.cs" t="Include" />
-              <e p="Outfitter.cs" t="Include" />
-              <e p="RadialAngler.cs" t="Include" />
-              <e p="RootMotionOff.cs" t="Include" />
-              <e p="SkinnedMeshCombiner.cs" t="Include" />
-            </e>
-          </e>
           <e p="Editor" t="Include">
             <e p="ImageEffects" t="Include">
               <e p="BloomEditor.cs" t="Include" />
