@@ -41,21 +41,21 @@ namespace Sellswords
                 Show(_buttonsTower);/// показывает кнопочки ивенторя,магазина,лагеря
         });
         }
-        public override void Hide(GameObject _gameObject) /// метод скрытия  
+        public override void Hide(GameObject gameObject) /// метод скрытия  
         {
             if (!IsShow) return;
-            _gameObject.gameObject.SetActive(false);
+            gameObject.gameObject.SetActive(false);
             IsShow = false;
         }
-        public override void Show(GameObject _gameObject) // метод показа
+        public override void Show(GameObject gameObject) // метод показа
         {
             if (IsShow)
             {
-                Hide(_gameObject);
+                Hide(gameObject);
             }
             else
             {
-                _gameObject.gameObject.SetActive(true);
+                gameObject.gameObject.SetActive(true);
                 IsShow = true;
             }
         }

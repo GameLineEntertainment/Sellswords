@@ -9,10 +9,10 @@ namespace Sellswords
     {
         public TextMeshProUGUI PlaceNameCharacter;/// поле для вывода Name активного героя
         public TextMeshProUGUI PlaceLvLCharacter;/// поле для вывода LvL активного героя
-        public TextMeshProUGUI _maxHp;
-        public TextMeshProUGUI _currentHp;
-        public TextMeshProUGUI _ability;
-        public TextMeshProUGUI _damage;
+        public TextMeshProUGUI MaxHp;
+        public TextMeshProUGUI CurrentHp;
+        public TextMeshProUGUI Ability;
+        public TextMeshProUGUI Damage;
         [SerializeField] private GameObject _buttonsTower;// кнопки меню город,лагерь,магазин
         [SerializeField] private ButtonUi _shop; //кнопочка магазина
         [SerializeField] private ButtonUi _inventory;
@@ -33,7 +33,7 @@ namespace Sellswords
         TestGrouPHeroes testGrouPHeroes;// фективный класс хранивший количество героев имеющегося у игрока  ЗАМЕНИТЬ
         private void Start()
         {             
-            testGrouPHeroes = TestGrouPHeroes.testGrouPHeroes;//список героев фективный
+            testGrouPHeroes = TestGrouPHeroes.testGrouPHeroes;//список героев фективный ЗАМЕНИТЬ
             RectTransform rectTransform = _charahtersBox.GetComponent<RectTransform>(); ///скролл бокс
             rectTransform.sizeDelta = new Vector2(40, ((testGrouPHeroes.testHeroes.Count) * 19));// размер под количество героев
             for (int i = 0; i < testGrouPHeroes.testHeroes.Count; i++)
@@ -90,10 +90,10 @@ namespace Sellswords
             {
                 _statsButton.GetImage.color = _colorActive;
                 _levelButton.GetImage.color = _colorDefault;
-                _maxHp.text = "три";//activ.character.maxhp
-                _currentHp.text = "два";//вывод на панель стат
-                _ability.text = "ебливити";//вывод на панель стат
-                _damage.text = "дэмэдж";//вывод на панель стат
+                MaxHp.text = "три";//activ.character.maxhp
+                CurrentHp.text = "два";//вывод на панель стат
+                Ability.text = "ебливити";//вывод на панель стат
+                Damage.text = "дэмэдж";//вывод на панель стат
                 Show(_statsPanel);
                 Hide(_levelPanel);
             });

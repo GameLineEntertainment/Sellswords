@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LVL: 2
   name: blue
-  icon: {fileID: 21300000, guid: 40598f3410fdc164080c9bc514d093a4, type: 3}
+  icon: {fileID: 21300000, guid: fd615f270ac3a464a9e90bbbeb6bd682, type: 3}
   HP: 57

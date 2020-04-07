@@ -11,12 +11,12 @@ namespace Sellswords
     {
         public Image _icon;
         TestItems _item; //класс ивентарь
-        public TextMeshProUGUI _lvlText;
-        public void AddItem(TestItems _newItem)// добавляем инвентарь
+        public TextMeshProUGUI Count;
+        public void AddItem(TestItems newItem)// добавляем инвентарь
         {
-            _item = _newItem;
+            _item = newItem;
             _icon.sprite = _item.icon;
-            _lvlText.transform.GetComponent<TextMeshProUGUI>().text = _item.count.ToString();
+            Count.transform.GetComponent<TextMeshProUGUI>().text = _item.count.ToString();
             _icon.enabled = true;
         }
 

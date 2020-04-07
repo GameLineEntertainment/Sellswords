@@ -8,7 +8,7 @@ namespace Sellswords
     public abstract class BaseMenu : MonoBehaviour// базовый класс для менюшек
     {
         protected bool IsShow { get; set; }
-        public abstract void Hide(GameObject _gameObject);// метод скрытия
-        public abstract void Show(GameObject _gameObject);// метод показа
+        public abstract void Hide(GameObject gameObject);// метод скрытия
+        public abstract void Show(GameObject gameObject);// метод показа
     }
 }

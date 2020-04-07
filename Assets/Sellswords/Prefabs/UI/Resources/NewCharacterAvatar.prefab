@@ -161,7 +161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d640123a48640943bedb482bcfc5245, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _hp: 0
+  _yellowLineCount: 82
+  _redLineCount: 49
+  _hp: -0.52
 --- !u!1 &911814325560627788
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,4 +590,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hpBar: {fileID: 911814324982739282}
   _icon: {fileID: 911814325560627786}
-  _lvlText: {fileID: 911814326229347486}
+  LvlText: {fileID: 911814326229347486}
