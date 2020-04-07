@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b41051761ce4d2e93e75b9561c84569, type: 3}
+  m_Name: spell_firetwist
+  m_EditorClassIdentifier: 
+  Id: 6
+  PoolSize: 10
+  SpellColorType: 1
+  SpellType: 6
+  Spell: {fileID: 4899712092193956751, guid: d551be2ab00de20429f604c989872760, type: 3}
+  Speed: 5
+  HitRadius: 3
+  DestroyAfterTime: 2
+  MustSpawnOnEnemyPosition: 0
+  SpawnSpellPosition: {fileID: 5716821489792326586, guid: 5ce910ace04cad447964fb2e86d543d0,
+    type: 3}
+  StatusObjects:
+  - {fileID: 11400000, guid: 3d8fa157befe86c4ea4dbd4c24e41aeb, type: 2}
+  - {fileID: 11400000, guid: 1c9b7e28395acc54a84c815f4bcdee9e, type: 2}
+  maxHit: 3
