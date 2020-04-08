@@ -4,17 +4,16 @@ using System.Linq;
 
 namespace Sellswords
 {
-    public class SpellHammerDash : Spell
+    public sealed class SpellHammerDash : Spell
     {
         #region PrivateData
 
         private float _maxHit;
-        private List<Transform> hitted;
+        private List<Transform> _hitted;
         private float _rotateSpeed;
-        private float _timer = 3;
+        private float _timer = 3.0f;
 
         #endregion
-
 
         #region ClassLifeCycle
 
@@ -24,13 +23,12 @@ namespace Sellswords
             if (spellObject is SpellHammerDashData spell)
             {
                 _maxHit = spell.MaxHit;
-                hitted = new List<Transform>();
+                _hitted = new List<Transform>();
                 _rotateSpeed = spell.RotateSpeed;
             }
         }
 
         #endregion
-
 
         #region Methods
 
@@ -44,7 +42,7 @@ namespace Sellswords
         protected override void Move()
         {
             _projectile.GetComponent<Rigidbody>().velocity = Vector3.forward * _speed;
-            _projectile.GetComponent<Rigidbody>().angularVelocity = new Vector3(0, _rotateSpeed, 0);
+            _projectile.GetComponent<Rigidbody>().angularVelocity = new Vector3(0.0f, _rotateSpeed, 0.0f);
         }
 
         protected override bool HitCheck(float radius)
@@ -54,7 +52,7 @@ namespace Sellswords
                 return false;
             }
 
-            if (hitted.Count >= _maxHit || _timer < 0.2)
+            if (_hitted.Count >= _maxHit || _timer < 0.2f)
             {
                 _isHitDone = true;
                 ResetAfterTime();
@@ -65,10 +63,10 @@ namespace Sellswords
             {
                 if (_targets.Any(t => t.Transform == hits[i].transform))
                 {
-                    if (!hitted.Contains(hits[i].transform))
+                    if (!_hitted.Contains(hits[i].transform))
                     {
-                        hitted.Add(hits[i].transform);
-                        var target = _targets.FirstOrDefault(t => t.Transform == hits[i].transform);
+                        _hitted.Add(hits[i].transform);
+                        var target = _targets.FirstOrDefault(t => t.Transform.Equals(hits[i].transform));
                         HitEffect(target);
                     }
                 }
