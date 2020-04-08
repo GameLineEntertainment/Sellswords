@@ -22,7 +22,7 @@ namespace Sellswords
         {
             if (spellObject is SpellFireTwistData spell)
             {
-                _maxHit = spell.maxHit;
+                _maxHit = spell.MaxHit;
                 _hitted = new List<Transform>();
             }
             
