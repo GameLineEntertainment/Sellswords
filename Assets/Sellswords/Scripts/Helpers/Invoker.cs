@@ -23,12 +23,13 @@ namespace Sellswords
                     result = () => new SpellShake(poolPosition, spellObject, services);
                     break;
                 case SpellType.FreezeBall:
-                // TODO: FreezeBall
+                    result = () => new SpellFreezeBall(poolPosition, spellObject, services);
+                    break;
                 case SpellType.HammerDash:
-                    // TODO: HammerDash
+                    result = () => new SpellHammerDash(poolPosition, spellObject, services);
                     break;
                 case SpellType.FireTwister:
-                    // TODO: FireTwister
+                    result = () => new SpellFireTwist(poolPosition, spellObject, services);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
@@ -55,7 +56,7 @@ namespace Sellswords
                     result = new StatusPhysicalDamage(statusObject);
                     break;
                 case StatusType.Freeze:
-                    // TODO: фриз
+                    result = new StatusFreeze(statusObject);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();

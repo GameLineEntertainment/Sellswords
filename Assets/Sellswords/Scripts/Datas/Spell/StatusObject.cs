@@ -20,6 +20,7 @@ namespace Sellswords
         [ShowInInspectorByStatus(StatusType.Slow)]
         [ShowInInspectorByStatus(StatusType.Freeze)]
         [ShowInInspectorByStatus(StatusType.PhysicalDamage)]
+        [ShowInInspectorByStatus(StatusType.Force)]
         public float Duration;
         
         [ShowInInspectorByStatus(StatusType.PhysicalDamage)]
