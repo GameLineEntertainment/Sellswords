@@ -2,19 +2,19 @@
 using System.Linq;
 using UnityEngine;
 
+
 namespace Sellswords
 {
-    public class SpellFireTwist : Spell
+    public sealed class SpellFireTwist : Spell
     {
         #region PrivateData
 
         private float _maxHit;
         private List<Transform> _hitted;
-        private float _timer =2;
+        private float _timer =2.0f;
 
         #endregion
-
-
+        
         #region ClassLifeCycle
 
         public SpellFireTwist(Vector3 poolPosition, SpellObject spellObject, UsableServices services) : base(
@@ -29,8 +29,7 @@ namespace Sellswords
         }
 
         #endregion
-
-
+        
         #region Methods
 
         protected override void Effect()
@@ -46,12 +45,11 @@ namespace Sellswords
 
         protected override bool HitCheck(float radius)
         {
-            
             if (_isHitDone)
             {
                 return false;
             }
-            if (_hitted.Count >= _maxHit||_timer<0.2)
+            if (_hitted.Count >= _maxHit||_timer<0.2f)
             {
                 _isHitDone = true;
                 ResetAfterTime();
@@ -65,13 +63,12 @@ namespace Sellswords
                     if (!_hitted.Contains(hits[i].transform))
                     {
                         _hitted.Add(hits[i].transform);
-                        var target = _targets.FirstOrDefault(t => t.Transform == hits[i].transform);
+                        var target = _targets.FirstOrDefault(t => t.Transform.Equals(hits[i].transform));
                         HitEffect(target);
                     }
                 }
             }
             
-
             return _isHitDone;
         }
 
@@ -89,7 +86,6 @@ namespace Sellswords
                     _targets = targets.ToArray();
                     Effect();
                 }
-                
             }
             _timer -= _services.UnityTimeService.DeltaTime();
             return HitCheck(_hitRadius);
