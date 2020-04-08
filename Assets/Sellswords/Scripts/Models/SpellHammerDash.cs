@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
+
 namespace Sellswords
 {
     public sealed class SpellHammerDash : Spell

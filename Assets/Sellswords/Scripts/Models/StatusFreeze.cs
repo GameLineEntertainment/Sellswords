@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+
 namespace Sellswords
 {
     public class StatusFreeze : Status
@@ -51,8 +52,8 @@ namespace Sellswords
                 {
                     _speed = state.MoveSpeed;
                     _rotate = state.SpeedRotate;
-                    state.MoveSpeed = 0;
-                    state.SpeedRotate = 0;
+                    state.MoveSpeed = 0.0f;
+                    state.SpeedRotate = 0.0f;
                     state.IsFreeze = true;
                 }
             }

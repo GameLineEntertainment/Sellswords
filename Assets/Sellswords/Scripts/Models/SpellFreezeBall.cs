@@ -2,6 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
+
 namespace Sellswords
 {
     public sealed class SpellFreezeBall : Spell
