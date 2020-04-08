@@ -5,16 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Old/Test/Performance_Effect_test.unity
-    guid: 964b31429db4e9849977ee8ee0ec1767
+  - enabled: 1
+    path: Assets/Sellswords/Scenes/MainMenu.unity
+    guid: df7dea78cafbb1a429b58222c42bfde9
+  - enabled: 1
+    path: Assets/Sellswords/Scenes/CampMenu.unity
+    guid: 7c082af208049fa40a5c83aa7d185080
+  - enabled: 1
+    path: Assets/Sellswords/Scenes/InventoryMenu.unity
+    guid: 7f0d2c14ccaa9044395e5577f04a8e0b
+  - enabled: 1
+    path: Assets/Sellswords/Scenes/Scene.unity
+    guid: a487d7b85a223964984033b25cb0656a
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Old/Kolokviun_Gates.unity
-    guid: 0937368295964774c8ff35c90d538472
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/COMBATSCENE/TEST.unity
     guid: cb65a250124d951439f7178d23bf4374
   m_configObjects: {}
