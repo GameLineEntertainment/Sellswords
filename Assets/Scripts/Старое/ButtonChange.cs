@@ -46,7 +46,7 @@ public class ButtonChange : MonoBehaviour
     {
         foreach (GameObject Char in Characters)
         {
-           // Pos = (Char_Controller)Char.GetComponent("Char_Controller");
+            //Pos = (Char_Controller)Char.GetComponent("Char_Controller");
             Pos.TargetPositions(true);
             Turn = true;
 

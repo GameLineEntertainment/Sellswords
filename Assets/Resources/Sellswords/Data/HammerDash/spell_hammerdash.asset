@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f599cb073afe41a8a8ed8d0af87e5613, type: 3}
+  m_Name: spell_hammerdash
+  m_EditorClassIdentifier: 
+  Id: 5
+  PoolSize: 10
+  SpellColorType: 2
+  SpellType: 5
+  Spell: {fileID: 4328105937133394108, guid: bf21c77269848c14faa670296d2daeed, type: 3}
+  Speed: 5
+  HitRadius: 2
+  DestroyAfterTime: 2
+  MustSpawnOnEnemyPosition: 0
+  SpawnSpellPosition: {fileID: 5716821489792326586, guid: 5ce910ace04cad447964fb2e86d543d0,
+    type: 3}
+  StatusObjects:
+  - {fileID: 11400000, guid: ecc08929d4dd4bc41ba36074ee821473, type: 2}
+  - {fileID: 11400000, guid: d5d70b0061372b246a448802a34b8a06, type: 2}
+  RotateSpeed: 30
+  MaxHit: 3

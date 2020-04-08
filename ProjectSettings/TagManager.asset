@@ -38,6 +38,7 @@ TagManager:
   - Ground
   - EnemySpawn
   - Meteor
+  - meteorspawn
   layers:
   - Default
   - TransparentFX
