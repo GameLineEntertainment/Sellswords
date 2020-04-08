@@ -11,13 +11,12 @@ namespace Sellswords
         private GameObject _afterEffect;
         private GameObject _mainEffect;
         private Rigidbody _rigidbody;
-        private float _afterEffectTime = 2;
+        private float _afterEffectTime = 2.0f;
         private float _freezeDuration;
         private float _speed;
 
         #endregion
-
-
+        
         #region ClassLifeCycle
 
         public SpellFreezeBall(Vector3 poolPosition, SpellObject spellObject, UsableServices services) : base(
@@ -34,8 +33,7 @@ namespace Sellswords
         }
 
         #endregion
-
-
+        
         #region Methods
 
         protected override void Effect()
@@ -43,7 +41,7 @@ namespace Sellswords
             Starting();
             _projectile.transform.LookAt(_targets.FirstOrDefault().Transform);
             var rotation = _projectile.transform.rotation;
-            rotation.Set(rotation.x, 0, rotation.z, rotation.w);
+            rotation.Set(rotation.x, 0.0f, rotation.z, rotation.w);
             Move();
         }
 
@@ -61,8 +59,7 @@ namespace Sellswords
         }
 
         #endregion
-
-
+        
         #region ISpell
 
         public override bool Use<T>(T target)
@@ -89,9 +86,9 @@ namespace Sellswords
 
         protected override void Reset()
         {
+            base.Reset();
             _afterEffect.SetActive(false);
             _mainEffect.SetActive(true);
-            base.Reset();
         }
 
         #endregion
