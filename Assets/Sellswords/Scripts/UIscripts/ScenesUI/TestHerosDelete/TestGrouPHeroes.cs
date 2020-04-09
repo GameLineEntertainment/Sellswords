@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TestGrouPHeroes : MonoBehaviour
 {
+    public TestHeroes SelectedCharacter;
     public static TestGrouPHeroes testGrouPHeroes;
 
     void Awake()

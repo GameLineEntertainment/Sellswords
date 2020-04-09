@@ -13,26 +13,22 @@ namespace Sellswords
         [SerializeField] private ButtonUi _camp;
         [SerializeField] private ButtonUi _inventory;
         [SerializeField] private ButtonUi _play;
-        [SerializeField] private ButtonUi _towerMenu;
-        [SerializeField] private ButtonUi _heroeBlue;
-        [SerializeField] private ButtonUi _heroeBlue1;
-        [SerializeField] private ButtonUi _сurrentHealthBlue;
-        [SerializeField] private ButtonUi _heroeGreen;
-        [SerializeField] private ButtonUi _heroeGreen1;
-        [SerializeField] private ButtonUi _сurrentHealthGreen;
-        [SerializeField] private ButtonUi _heroeRed;
-        [SerializeField] private ButtonUi _heroeRed1;
-        [SerializeField] private ButtonUi _сurrentHealthRed;
+        [SerializeField] private ButtonUi _towerMenu;       
         [SerializeField] private ButtonUi _ImageLoot1;
         [SerializeField] private ButtonUi _ImageLoot2;
         [SerializeField] private GameObject _buttonsTower;
         [SerializeField] private GameObject _selectMission;
         [SerializeField] private Sprite _setKollokviumImage;
         [SerializeField] private Sprite _setForestImage;
+        public TestGrouPHeroes testGrouPHeroes;// фективный класс хранивший количество героев имеющегося у игрока  ЗАМЕНИТЬ
+
         private int _locationInd;// индекс загружаемой сцены
 
         private void Start()
-        {          
+        {
+            testGrouPHeroes = TestGrouPHeroes.testGrouPHeroes;//список героев фективный ЗАМЕНИТЬ
+            testGrouPHeroes.SelectedCharacter = testGrouPHeroes.testHeroes[0];
+
             #region
             _locationKollokvium.GetControl.onClick.AddListener(delegate /// логика при клике
             {
