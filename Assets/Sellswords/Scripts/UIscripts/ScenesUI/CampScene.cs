@@ -1,18 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 
 namespace Sellswords
 {
     public class CampScene : BaseMenu///скрипт должен быть на конвосе
     {
-        public TextMeshProUGUI PlaceNameCharacter;/// поле для вывода Name активного героя
-        public TextMeshProUGUI PlaceLvLCharacter;/// поле для вывода LvL активного героя
-        public TextMeshProUGUI MaxHp;
-        public TextMeshProUGUI CurrentHp;
-        public TextMeshProUGUI Ability;
-        public TextMeshProUGUI Damage;
+        [SerializeField] private StatPanel _statPanel;
         [SerializeField] private GameObject _buttonsTower;// кнопки меню город,лагерь,магазин
         [SerializeField] private ButtonUi _shop; //кнопочка магазина
         [SerializeField] private ButtonUi _inventory;
@@ -26,28 +20,37 @@ namespace Sellswords
         [SerializeField] private ButtonUi _upGradeButton;
         [SerializeField] private GameObject _charahtersBox;
         [SerializeField] private GameObject _characterAvatarBox;// префаб модели аватара resources/ui "NewcharachterAvatar"
-        private bool _isUpGrade;//можно улучшить или нет
         private Color _colorDefault;
         private Color _colorActive;
+        private bool _isUpGrade;//можно улучшить или нет
+        public  Transform CharacterRotation;
+        public static CampScene Intance;
         TestInventory Inventory; // фективный класс хранивший инвентарь и его количество ЗАМЕНИТЬ
-        TestGrouPHeroes testGrouPHeroes;// фективный класс хранивший количество героев имеющегося у игрока  ЗАМЕНИТЬ
+        public TestGrouPHeroes testGrouPHeroes;// фективный класс хранивший количество героев имеющегося у игрока  ЗАМЕНИТЬ
+        void Awake()
+        {
+            Intance = this;
+        }
         private void Start()
-        {             
+        {            
             testGrouPHeroes = TestGrouPHeroes.testGrouPHeroes;//список героев фективный ЗАМЕНИТЬ
-            RectTransform rectTransform = _charahtersBox.GetComponent<RectTransform>(); ///скролл бокс
-            rectTransform.sizeDelta = new Vector2(40, ((testGrouPHeroes.testHeroes.Count) * 19));// размер под количество героев
+            testGrouPHeroes.SelectedCharacter = testGrouPHeroes.testHeroes[0];
+            Instantiate(testGrouPHeroes.SelectedCharacter._prefab, CampScene.Intance.CharacterRotation).SetActive(true);
+            RectTransform _rectTransform = _charahtersBox.GetComponent<RectTransform>(); ///скролл бокс
+            _rectTransform.sizeDelta = new Vector2(40, ((testGrouPHeroes.testHeroes.Count) * 19));// размер под количество героев
             for (int i = 0; i < testGrouPHeroes.testHeroes.Count; i++)
-            {
-                GameObject _characters = Instantiate(_characterAvatarBox, new Vector3(_charahtersBox.transform.position.x, (_charahtersBox.transform.position.y + (rectTransform.sizeDelta.y * 2) + (testGrouPHeroes.testHeroes.Count * 5)) - (i * 90), 0), Quaternion.identity) as GameObject;
+            {               
+                GameObject _characters = Instantiate(_characterAvatarBox, new Vector3(_charahtersBox.transform.position.x, (_charahtersBox.transform.position.y + (_rectTransform.sizeDelta.y * 2) + (testGrouPHeroes.testHeroes.Count * 5)) - (i * 90), 0), Quaternion.identity) as GameObject;
                 _characters.transform.SetParent(_charahtersBox.transform);
-                CharacterAvatar _charh = _characters.GetComponentInChildren<CharacterAvatar>();
-                _charh._hpBar._hp = testGrouPHeroes.testHeroes[i].HP;
-                _charh.AddAvatar(testGrouPHeroes.testHeroes[i]);
-            }
+                CharacterAvatar _avatar = _characters.GetComponentInChildren<CharacterAvatar>();
+                _avatar.HpBar._hp = testGrouPHeroes.testHeroes[i].HP;
+                _avatar.AddAvatar(testGrouPHeroes.testHeroes[i]);
+            }           
             Inventory = TestInventory.instance;
             SlotUI[] _slots = GetComponentsInChildren<SlotUI>(); //все слоты
             for (int i = 0; i < _slots.Length; i++)
             {
+                Debug.Log(_slots.Length);
                 if (i < Inventory.testItems.Count)/// распределяем объекты в слоты
                 {
                     _slots[i].AddItem(Inventory.testItems[i]);
@@ -89,11 +92,7 @@ namespace Sellswords
             _statsButton.GetControl.onClick.AddListener(delegate
             {
                 _statsButton.GetImage.color = _colorActive;
-                _levelButton.GetImage.color = _colorDefault;
-                MaxHp.text = "три";//activ.character.maxhp
-                CurrentHp.text = "два";//вывод на панель стат
-                Ability.text = "ебливити";//вывод на панель стат
-                Damage.text = "дэмэдж";//вывод на панель стат
+                _levelButton.GetImage.color = _colorDefault;               
                 Show(_statsPanel);
                 Hide(_levelPanel);
             });
@@ -116,6 +115,10 @@ namespace Sellswords
             {
                 //загрузка мини
             });
+        }
+        public void Update()
+        {
+            _statPanel.ShowStats(testGrouPHeroes);
         }
         public override void Hide(GameObject gameObject)
         {
