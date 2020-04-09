@@ -3,7 +3,7 @@
 
 namespace Sellswords
 {
-    public class StatusFreeze : Status
+    public sealed class StatusFreeze : Status
     {
         #region PrivateData
 
